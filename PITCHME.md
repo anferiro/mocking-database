@@ -8,11 +8,6 @@
 - Basics
 - Mocking a database
 - Approaches
-    - Living database. 
-     - Embedded
-     - Local
-
-
 ---
 
 # Basics
@@ -65,26 +60,41 @@ A virtual service is often created by recording traffic using one of the service
 Generic term for any kind of pretend object used in place of a real object for testing purposes.
 
 ---
+#### Common categories of test double
 
-Common categories of test double used by developers:
+---
+##### dummy 
+object (a string “Mike”)
 
-- dummy object (a string “Mike”)
-- stub (a StubUserRepository class that always returns user object representing a male named John, age 32, living in US)
-- spy (a SpyHttpResponse class that records all invocations of the onPost method)
-- fake (a FakeDatabase class which persists to an in memory H2 database instead of the DB2 production ­system)
-- mock (a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a unit test)
+---
+##### stub 
+a StubUserRepository class that always returns user object representing a male named John, age 32, living in US
+
+---
+##### spy
+a SpyHttpResponse class that records all invocations of the onPost method
+
+---
+##### fake
+a FakeDatabase class which persists to an in memory H2 database instead of the DB2 production ­system
+
+---
+##### mock
+a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a unit test
+
+---
 
 ---
 Common categories of a test double used for testing and quality assurance:
 
-- stub (a servlet in a WAR file created using SoapUI and deployed to a remote Jetty instance at http://testEnv.mycompany.com/getWeatherService)
-- virtual service (an artifact created with a service virtualization tool and deployed to a remote shared virtual service environment at http://vsenv.mycompany.com:9034/getWeatherService)
+- **stub** (a servlet in a WAR file created using SoapUI and deployed to a remote Jetty instance at http://testEnv.mycompany.com/getWeatherService)
+- **virtual service** (an artifact created with a service virtualization tool and deployed to a remote shared virtual service environment at http://vsenv.mycompany.com:9034/getWeatherService)
 
 ---
 ## What should we use?
 
 |   |data source| created by | used by|
 |---|-----------|------------|--------| 
-| Stub | Hardcoded data | DEVs sometimes testers| DEVs sometimes testers|
+| Stub | Hardcoded data | DEVs/testers| DEVs/testers|
 | Mock | Data set up by the test | DEVS | DEVs |
-| Virtual Service | Recorded data | Mostly testers | Mostly testers |
+| Virtual Service | Recorded data | Testers | Testers |
