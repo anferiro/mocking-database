@@ -42,27 +42,28 @@ One way of solving the issues of too many dependencies and too many moving parts
 ## Concepts
 
 ---
-## Stubs
+### Stubs
 
 Minimal implementation of an interface that normally return hardcoded data
 
 ---
 
-## Mock 
+### Mock 
 
 Programmable interface observer, that verifies the outputs against expectations defined by the test.
 
 ---
-## Virtual Services
+### Virtual Services
 
 **Test double** often provided as SaaS, it's always called remotely.  
 
 A virtual service is often created by recording traffic using one of the service virtualization platforms instead of building the interaction pattern from scratch based on interface or API documentation.
 
 ---
-## Test Double
+### Test Double
 
 Generic term for any kind of pretend object used in place of a real object for testing purposes.
+
 ---
 
 Common categories of test double used by developers:
@@ -73,7 +74,17 @@ Common categories of test double used by developers:
 - fake (a FakeDatabase class which persists to an in memory H2 database instead of the DB2 production ­system)
 - mock (a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a unit test)
 
+---
 Common categories of a test double used for testing and quality assurance:
 
 - stub (a servlet in a WAR file created using SoapUI and deployed to a remote Jetty instance at http://testEnv.mycompany.com/getWeatherService)
 - virtual service (an artifact created with a service virtualization tool and deployed to a remote shared virtual service environment at http://vsenv.mycompany.com:9034/getWeatherService)
+
+---
+## What should we use?
+
+|   |data source| created by | used by|
+|---|-----------|------------|--------| 
+| Stub | Hardcoded data | DEVs sometimes testers| DEVs sometimes testers|
+| Mock | Data set up by the test | DEVS | DEVs |
+| Virtual Service | Recorded data | Mostly testers | Mostly testers |
