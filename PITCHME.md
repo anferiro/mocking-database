@@ -1,6 +1,6 @@
 # Mocking Database 
 
-### By Andres Felipe Rincon
+#### By Andres Felipe Rincon
 
 ---
 # Agenda
@@ -18,7 +18,19 @@
 # Basics
 
 ---
+## Manual Testing Problems
+![Figure1](assets/image/TraditionalManualTestingProblems.jpg)
 
+---
+## Solving Manual Testing problems
+
+### Service Virtualization
+![Figure2](assets/image/ManualTestingSolutionWithServiceV.jpg)
+
+Note: 
+One way of solving the issues of too many dependencies and too many moving parts is by doing system testing before integration testing with external backend systems (Figure 2). Using virtual services or stubs, allow you to decouple the testing from the real backend systems. The problems mentioned above, either disappear or lose priority. People are happy for a while. 
+
+---
 ## Stubs
 
 Minimal implementation of an interface that normally return hardcoded data
