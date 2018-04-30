@@ -7,7 +7,7 @@
 
 - Basics
 - Mocking a database
-- Approaches
+
 ---
 
 # Basics
@@ -83,8 +83,6 @@ a FakeDatabase class which persists to an in memory H2 database instead of the D
 a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a unit test
 
 ---
-
----
 Common categories of a test double used for testing and quality assurance:
 
 - **stub** (a servlet in a WAR file created using SoapUI and deployed to a remote Jetty instance at http://testEnv.mycompany.com/getWeatherService)
@@ -98,3 +96,34 @@ Common categories of a test double used for testing and quality assurance:
 | Stub | Hardcoded data | DEVs/testers| DEVs/testers|
 | Mock | Data set up by the test | DEVS | DEVs |
 | Virtual Service | Recorded data | Testers | Testers |
+
+---
+# Mocking database
+
+---
+## Fake database 
+
+Using a memory database like H2 who behaves as our transactional database. 
+
+---
+### H2
+
+- It is an open source database built in Java who supports SQL and JDBC API. 
+- This database can emulate the behavior of specific databases as: 
+    - DB2
+    - Derby
+    - HSQLDB
+    - MS SQL Server
+    - MYSQL 
+    - ORACLE
+    - POSTGRES
+--- 
+### H2 Sample
+
+---
+## Embedded Database
+
+Set up a database as part of your development process, and use it when you are executing your integration tests.
+
+
+
