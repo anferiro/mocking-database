@@ -36,12 +36,13 @@ One way of solving the issues of too many dependencies and too many moving parts
 ---
 ## Concepts
 
----?image=assets/image/stubsData.png&size=auto 50%&position=bottom
+---
 ### Stubs
 
 Minimal implementation of an interface that normally return hardcoded data
 
----
+---?image=assets/image/stubsData.png&size=auto 50%&position=bottom
+
 
 Stub Object
 
