@@ -18,7 +18,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="419">
-                <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+                <caret line="43" selection-start-line="43" selection-end-line="43" />
                 <folding>
                   <element signature="e#119#120#0" expanded="true" />
                   <element signature="e#161#162#0" expanded="true" />
@@ -207,12 +207,12 @@
       <updated>1525026049411</updated>
       <workItem from="1525026054197" duration="7594000" />
       <workItem from="1525050685140" duration="3000" />
-      <workItem from="1525645044677" duration="2140000" />
+      <workItem from="1525645044677" duration="2189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9737000" />
+    <option name="totallyTimeSpent" value="9786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -329,7 +329,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="419">
-            <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+            <caret line="43" selection-start-line="43" selection-end-line="43" />
             <folding>
               <element signature="e#119#120#0" expanded="true" />
               <element signature="e#161#162#0" expanded="true" />
