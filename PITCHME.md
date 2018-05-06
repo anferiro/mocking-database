@@ -41,8 +41,11 @@ One way of solving the issues of too many dependencies and too many moving parts
 
 Minimal implementation of an interface that normally return hardcoded data
 
----?image=assets/image/stubsData.png&size=auto 50%&position=bottom
+---
 
+![Figure3](assets/image/stubsData.png)
+
+---
 
 Stub Object
 
@@ -86,6 +89,8 @@ public class GradesServiceTest {
 ### Mock 
 
 Programmable interface observer, that verifies the outputs against expectations defined by the test.
+
+---
 
 ![Figure 4](assets/image/mockData.png)
 
