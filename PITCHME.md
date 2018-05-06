@@ -66,7 +66,9 @@ public class GradesService {
 ---
 Instead of calling database from Gradebook store to get real students grades, we preconfigure stub with grades that will be returned. We define just enough data to test average calculation algorithm.
 
-```java
++++ @title[Sample Block]
+
+```java 
 public class GradesServiceTest {
     private Student student;
     private Gradebook gradebook;
