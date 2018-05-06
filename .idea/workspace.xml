@@ -17,8 +17,14 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <first_editor relative-caret-position="543">
+                <caret line="212" column="13" lean-forward="true" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+                <folding>
+                  <element signature="e#119#120#0" expanded="true" />
+                  <element signature="e#161#162#0" expanded="true" />
+                  <element signature="e#210#211#0" expanded="true" />
+                  <element signature="e#270#271#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -201,12 +207,12 @@
       <updated>1525026049411</updated>
       <workItem from="1525026054197" duration="7594000" />
       <workItem from="1525050685140" duration="3000" />
-      <workItem from="1525645044677" duration="2940000" />
+      <workItem from="1525645044677" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10537000" />
+    <option name="totallyTimeSpent" value="11299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -253,6 +259,12 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1920">
             <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+            <folding>
+              <element signature="e#119#120#0" expanded="true" />
+              <element signature="e#161#162#0" expanded="true" />
+              <element signature="e#210#211#0" expanded="true" />
+              <element signature="e#270#271#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -316,8 +328,14 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <first_editor relative-caret-position="543">
+            <caret line="212" column="13" lean-forward="true" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+            <folding>
+              <element signature="e#119#120#0" expanded="true" />
+              <element signature="e#161#162#0" expanded="true" />
+              <element signature="e#210#211#0" expanded="true" />
+              <element signature="e#270#271#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

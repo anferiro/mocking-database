@@ -67,7 +67,7 @@ public class GradesService {
 Instead of calling database from Gradebook store to get real students grades, we preconfigure stub with grades that will be returned. We define just enough data to test average calculation algorithm.
 
 +++ 
-@title[Sample Block]
+@title[Stub Sample Block]
 
 ```java 
 public class GradesServiceTest {
@@ -100,6 +100,8 @@ Programmable interface observer, that verifies the outputs against expectations 
 ---
 We don’t want to close real doors to test that security method is working, right? Instead, we place door and window mocks objects in the test code.
 
++++
+@title[Mock Sample Block]
 
 ```java
 
@@ -166,11 +168,11 @@ a SpyHttpResponse class that records all invocations of the onPost method
 
 ---
 ##### fake
-a FakeDatabase class which persists to an in memory H2 database instead of the DB2 production ­system
+a FakeDatabase class which persists to an in memory H2 database instead of the DB2 production system
 
 ---
 ##### mock
-a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a unit test
+a dynamic proxy implementation of OrderObserver interface, implemented by Mockito and used in a **unit test**
 
 ---
 Common categories of a test double used for testing and quality assurance:
