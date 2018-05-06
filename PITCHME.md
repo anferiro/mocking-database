@@ -41,11 +41,94 @@ One way of solving the issues of too many dependencies and too many moving parts
 
 Minimal implementation of an interface that normally return hardcoded data
 
+![Figure3](assets/image/stubsData.png)
+
 ---
 
+Stub Object
+
+```java
+public class GradesService {
+    private final Gradebook gradebook;
+    
+    public GradesService(Gradebook gradebook) {
+        this.gradebook = gradebook;
+    }
+    
+    Double averageGrades(Student student) {
+        return average(gradebook.gradesFor(student));
+    }
+}
+```
+
+---
+Instead of calling database from Gradebook store to get real students grades, we preconfigure stub with grades that will be returned. We define just enough data to test average calculation algorithm.
+
+```java
+public class GradesServiceTest {
+    private Student student;
+    private Gradebook gradebook;
+
+    @Before
+    public void setUp() throws Exception {
+        gradebook = mock(Gradebook.class);
+        student = new Student();
+    }
+
+    @Test
+    public void calculates_grades_average_for_student() {
+        when(gradebook.gradesFor(student)).thenReturn(grades(8, 6, 10)); //stubbing gradebook
+        double averageGrades = new GradesService(gradebook).averageGrades(student);
+        assertThat(averageGrades).isEqualTo(8.0);
+    }
+}
+```
+---
 ### Mock 
 
 Programmable interface observer, that verifies the outputs against expectations defined by the test.
+
+![Figure 4](assets/image/mockData.png)
+
+---
+We don’t want to close real doors to test that security method is working, right? Instead, we place door and window mocks objects in the test code.
+
+
+```java
+
+public class SecurityCentral {
+    private final Window window;
+    private final Door door;
+
+    public SecurityCentral(Window window, Door door) {
+        this.window = window;
+        this.door = door;
+    }
+
+    void securityOn() {
+        window.close();
+        door.close();
+    }
+}
+```
+---
+
+```java
+
+public class SecurityCentralTest {
+    Window windowMock = mock(Window.class);
+    Door doorMock = mock(Door.class);
+
+    @Test
+    public void enabling_security_locks_windows_and_doors() {
+        SecurityCentral securityCentral = new SecurityCentral(windowMock, doorMock);
+        securityCentral.securityOn();
+        verify(doorMock).close();
+        verify(windowMock).close();
+    }
+}
+
+```
 
 ---
 ### Virtual Services
@@ -124,6 +207,9 @@ Using a memory database like H2 who behaves as our transactional database.
 ## Embedded Database
 
 Set up a database as part of your development process, and use it when you are executing your integration tests.
+
+---
+# Thanks 
 
 
 
