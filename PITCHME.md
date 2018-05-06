@@ -41,7 +41,7 @@ One way of solving the issues of too many dependencies and too many moving parts
 
 Minimal implementation of an interface that normally return hardcoded data
 
-![Figure3](assets/image/stubsData.png)
+---?image=assets/image/stubsData.png&size=auto 50%&position=bottom
 
 ---
 
