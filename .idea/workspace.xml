@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="614">
-                <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
+              <first_editor relative-caret-position="542">
+                <caret line="312" column="4" selection-start-line="312" selection-start-column="4" selection-end-line="312" selection-end-column="4" />
                 <folding>
                   <element signature="e#119#120#0" expanded="true" />
                   <element signature="e#161#162#0" expanded="true" />
@@ -203,12 +203,12 @@
       <workItem from="1525026054197" duration="7594000" />
       <workItem from="1525050685140" duration="3000" />
       <workItem from="1525645044677" duration="5121000" />
-      <workItem from="1525700194346" duration="3928000" />
+      <workItem from="1525700194346" duration="4073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16646000" />
+    <option name="totallyTimeSpent" value="16791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -345,8 +345,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="614">
-            <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
+          <first_editor relative-caret-position="542">
+            <caret line="312" column="4" selection-start-line="312" selection-start-column="4" selection-end-line="312" selection-end-column="4" />
             <folding>
               <element signature="e#119#120#0" expanded="true" />
               <element signature="e#161#162#0" expanded="true" />

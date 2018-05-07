@@ -225,34 +225,6 @@ Note: An embedded database is a database technology in which database management
 +++
 @title[Embedded Sample Block]
 ``` java
-
-package com.yohanliyanage.blog.mongoit.repository;
-
-import static org.junit.Assert.*;
-
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-
-import org.junit.*;
-import org.springframework.data.mongodb.core.MongoTemplate;
-
-import com.mongodb.Mongo;
-import com.yohanliyanage.blog.mongoit.model.Sample;
-
-import de.flapdoodle.embed.mongo.MongodExecutable;
-import de.flapdoodle.embed.mongo.MongodProcess;
-import de.flapdoodle.embed.mongo.MongodStarter;
-import de.flapdoodle.embed.mongo.config.MongodConfig;
-import de.flapdoodle.embed.mongo.config.RuntimeConfig;
-import de.flapdoodle.embed.mongo.distribution.Version;
-import de.flapdoodle.embed.process.extract.UserTempNaming;
-
-/**
- * Integration Test for {@link SampleRepositoryMongoImpl}.
- * 
- * @author Yohan Liyanage
- */
 public class SampleRepositoryMongoImplIntegrationTest {
 
     private static final String LOCALHOST = "127.0.0.1";
@@ -337,8 +309,8 @@ public class SampleRepositoryMongoImplIntegrationTest {
 }
 
 ```
-@[43-55]
-@[67]
+@[18-27]
+@[40]
 
 
 ---
