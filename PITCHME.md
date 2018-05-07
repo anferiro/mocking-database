@@ -193,7 +193,7 @@ Common categories of a test double used for testing and quality assurance:
 # Mocking database
 
 ---
-## Fake database 
+## Fake database (Virtualization)
 
 Using a memory database like H2 who behaves as our transactional database. 
 
@@ -212,10 +212,18 @@ Using a memory database like H2 who behaves as our transactional database.
 --- 
 ### H2 Sample
 
+![Figure 5](assets/image/H2Fake.png)
+
 ---
 ## Embedded Database
-
 Set up a database as part of your development process, and use it when you are executing your integration tests.
+
+---
+### What is it? 
+
+Note: An embedded database is a database technology in which database management solutions are built into an application rather than provided as standalone tools. In many cases, this effectively "hides" the database management tools from the end user.
+
+---?code=https://github.com/yohanliyanage/blog-mongo-integration-tests/blob/master/mongo-it/src/test/java/com/yohanliyanage/blog/mongoit/repository/SampleRepositoryMongoImplIntegrationTest.java
 
 ---
 # Thanks 
