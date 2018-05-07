@@ -18,7 +18,13 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="572">
-                <caret line="225" column="220" selection-start-line="225" selection-start-column="220" selection-end-line="225" selection-end-column="220" />
+                <caret line="225" column="203" selection-start-line="225" selection-start-column="203" selection-end-line="225" selection-end-column="203" />
+                <folding>
+                  <element signature="e#119#120#0" expanded="true" />
+                  <element signature="e#161#162#0" expanded="true" />
+                  <element signature="e#210#211#0" expanded="true" />
+                  <element signature="e#270#271#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -197,12 +203,12 @@
       <workItem from="1525026054197" duration="7594000" />
       <workItem from="1525050685140" duration="3000" />
       <workItem from="1525645044677" duration="5121000" />
-      <workItem from="1525700194346" duration="3296000" />
+      <workItem from="1525700194346" duration="3559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16014000" />
+    <option name="totallyTimeSpent" value="16277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -249,6 +255,12 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3045">
             <caret line="203" column="25" lean-forward="true" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
+            <folding>
+              <element signature="e#119#120#0" expanded="true" />
+              <element signature="e#161#162#0" expanded="true" />
+              <element signature="e#210#211#0" expanded="true" />
+              <element signature="e#270#271#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -334,7 +346,13 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="572">
-            <caret line="225" column="220" selection-start-line="225" selection-start-column="220" selection-end-line="225" selection-end-column="220" />
+            <caret line="225" column="203" selection-start-line="225" selection-start-column="203" selection-end-line="225" selection-end-column="203" />
+            <folding>
+              <element signature="e#119#120#0" expanded="true" />
+              <element signature="e#161#162#0" expanded="true" />
+              <element signature="e#210#211#0" expanded="true" />
+              <element signature="e#270#271#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

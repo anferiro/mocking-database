@@ -223,7 +223,7 @@ Set up a database as part of your development process, and use it when you are e
 
 Note: An embedded database is a database technology in which database management solutions are built into an application rather than provided as standalone tools. In many cases, this effectively "hides" the database management tools from the end user.
 
-+++?code=https://github.com/yohanliyanage/blog-mongo-integration-tests/blob/master/mongo-it/src/test/java/com/yohanliyanage/blog/mongoit/repository/SampleRepositoryMongoImplIntegrationTest.java&lang=java @title[Embedded Sample]
++++?code=https://raw.githubusercontent.com/yohanliyanage/blog-mongo-integration-tests/master/mongo-it/src/test/java/com/yohanliyanage/blog/mongoit/repository/SampleRepositoryMongoImplIntegrationTest.java&lang=java @title[Embedded Sample]
 
 ---
 # Thanks 
